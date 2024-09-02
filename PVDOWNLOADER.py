@@ -18,10 +18,10 @@ import random , os
 
 app = Client(
     name=           'downloader-pv',    # session name
-    api_id=         22454967,            # api id
-    api_hash=       '353e74226c24e32fd90e6c168c8ec942'     # api hash
+    api_id=         ,            # api id
+    api_hash=       ''     # api hash
 )
-admin = 1287257273                       # admin id
+admin =                        # admin id
 
 @app.on_message(filters.private and filters.text)
 async def running(c: Client, m: Message) :
